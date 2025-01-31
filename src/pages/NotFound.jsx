@@ -7,7 +7,7 @@ function NotFound() {
   return (
     <>
       <MainLayout>
-        <section className="flex flex-col items-center justify-center gap-8 min-h-screen -mt-16">
+        <section className="flex flex-col items-center justify-center gap-8 min-h-screen">
           <h1 className="text-9xl font-bold">
             <span className="text-primary-200">4</span>
             <span className="text-danger">0</span>
