@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 export default function AppRoutes() {
   const Home = lazy(() => import("@pages/Home"));
   const NotFound = lazy(() => import("@pages/NotFound"));
+  const ComingSoon = lazy(() => import("@pages/ComingSoon"));
+
   return (
     <Router>
       <Suspense
@@ -26,6 +28,7 @@ export default function AppRoutes() {
       >
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<ComingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
