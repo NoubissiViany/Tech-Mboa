@@ -17,7 +17,7 @@ function NotFound() {
             <Text
               type="h1"
               content="OOPS! PAGE NOT FOUND."
-              className="w-full"
+              className="w-full !text-3xl"
             />
             <Text
               content="You must have picked the wrong door because I haven't been able to lay my eye on the page you've been searching for."
