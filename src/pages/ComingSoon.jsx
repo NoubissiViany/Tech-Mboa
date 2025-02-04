@@ -8,7 +8,7 @@ function ComingSoon() {
   return (
     <div>
       <MainLayout>
-        <section className="flex flex-col items-center justify-center gap-8 min-h-screen">
+        <section className="flex flex-col items-center justify-center gap-8 min-h-screen -mt-16">
           <BsEmojiSunglasses size={70} color="#006B3D" />
           <article className="flex flex-col items-center gap-4 mx-auto text-center">
             <Text type="h1" content="COMING SOON" className="w-full" />

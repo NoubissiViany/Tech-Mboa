@@ -6,7 +6,9 @@ function MainLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow px-8">{children}</main>
+      <main className="flex-grow p-8 bg-neutral-200 max-[425px]:p-4">
+        {children}
+      </main>
       <Footer />
     </div>
   );

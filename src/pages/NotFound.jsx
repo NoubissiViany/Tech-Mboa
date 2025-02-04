@@ -7,7 +7,7 @@ function NotFound() {
   return (
     <>
       <MainLayout>
-        <section className="flex flex-col items-center justify-center gap-8 min-h-screen">
+        <section className="flex flex-col items-center justify-center gap-8 min-h-screen -mt-16">
           <h1 className="text-9xl font-bold">
             <span className="text-primary-200">4</span>
             <span className="text-danger">0</span>
@@ -17,7 +17,7 @@ function NotFound() {
             <Text
               type="h1"
               content="OOPS! PAGE NOT FOUND."
-              className="w-full"
+              className="w-full !text-3xl"
             />
             <Text
               content="You must have picked the wrong door because I haven't been able to lay my eye on the page you've been searching for."

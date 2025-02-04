@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Text({ content, type, className }) {
   switch (type) {
     case "h1":
-      return <h1 className={`font-bold text-3xl ${className}`}>{content}</h1>;
+      return <h1 className={`font-bold text-4xl ${className}`}>{content}</h1>;
     case "h2":
       return <h2 className={`font-bold text-2xl ${className}`}>{content}</h2>;
     case "h3":

@@ -4,7 +4,7 @@ import Text from "./Text";
 
 function Footer() {
   return (
-    <div className="bg-primary-300 py-16 flex flex-col gap-10">
+    <div className="bg-primary-300 py-16 flex flex-col gap-10 max-[425px]:py-8">
       <nav className="flex flex-col justify-center items-center gap-8">
         <Logo />
         <div className="flex gap-10 max-[425px]:flex-col max-[425px]:items-center">

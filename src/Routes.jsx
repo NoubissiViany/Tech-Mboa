@@ -1,5 +1,5 @@
+import Loader from "@components/Loader";
 import { lazy, Suspense } from "react";
-import { Audio } from "react-loader-spinner";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function AppRoutes() {
@@ -13,22 +13,14 @@ export default function AppRoutes() {
         fallback={
           <div className="flex h-screen items-center justify-center">
             <div className="flex flex-1 flex-col justify-center items-center">
-              <Audio
-                height="60"
-                width="30"
-                radius="9"
-                color="teal"
-                ariaLabel="loading"
-                wrapperStyle
-                wrapperClass
-              />
+              <Loader />
             </div>
           </div>
         }
       >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<ComingSoon />} />
+          <Route path="/about" element={<ComingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
