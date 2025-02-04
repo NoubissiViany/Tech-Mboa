@@ -1,20 +1,24 @@
+import featureImg1 from "../assets/images/home/featureImg1.png"
+import featureImg2 from "../assets/images/home/featureImg2.png"
+import featureImg3 from "../assets/images/home/featureImg3.png"
+
 const devShowcase = [
     {
-        img: "/src/assets/images/home/featureImg1.png",
+        img: featureImg1,
         alt: "feature image 1",
         heading: "Seamless application submissions for developers to showcase their work.",
         detail: "Submit your application and reach a wider audience.",
         name: "Submit"
     },
     {
-        img: "/src/assets/images/home/featureImg2.png",
+        img: featureImg2,
         alt: "feature image 2",
         heading: "Empower users to share their thoughts through ratings and comments.",
         detail: "Your feedback shapes the future of applications.",
         name: "Rate"
     },
     {
-        img: "/src/assets/images/home/featureImg3.png",
+        img: featureImg3,
         alt: "feature image 3",
         heading: "Explore a diverse range of applications tailored for your needs.",
         detail: "Find the perfect application that fits your lifestyle.",
