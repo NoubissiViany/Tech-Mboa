@@ -1,11 +1,14 @@
 import Text from "@components/Text";
 import Carousel from "@components/Carousel";
+import SlideImg1 from "../../assets/images/home/galleryImg1.png";
+import SlideImg2 from "../../assets/images/home/galleryImg2.png";
+import SlideImg3 from "../../assets/images/home/galleryImg3.png";
 
 function Gallery() {
   const items = [
-    { image: "/src/assets/images/home/galleryImg1.png", alt: "Slide 1" },
-    { image: "/src/assets/images/home/galleryImg2.png", alt: "Slide 2" },
-    { image: "/src/assets/images/home/galleryImg3.png", alt: "Slide 3" },
+    { image: SlideImg1, alt: "Slide 1" },
+    { image: SlideImg2, alt: "Slide 2" },
+    { image: SlideImg3, alt: "Slide 3" },
   ];
   return (
     <>
