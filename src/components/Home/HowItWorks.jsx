@@ -9,7 +9,7 @@ function HowItWorks() {
     <>
       <section className="flex flex-col gap-8 -mt-10">
         <article className="flex flex-col justify-center items-center gap-2">
-          <h5 className="font-bold">Explore</h5>
+          <h5 className="font-semibold">Explore</h5>
           <div className="flex flex-col gap-4 items-center">
             <Text
               type="h1"

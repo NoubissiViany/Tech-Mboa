@@ -19,7 +19,7 @@ function Benefits() {
         <img
           src={benefits}
           alt="benefits image"
-          className="h-96 max-[425px]:h-auto"
+          className="h-screen max-[425px]:h-auto"
         />
       </section>
     </>

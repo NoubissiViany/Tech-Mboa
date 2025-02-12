@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <header>
-      <nav className="flex items-center justify-between px-8 py-4 max-[425px]:px-4 max-[425px]:py-2">
+      <nav className="flex items-center justify-between px-8 py-4 max-[425px]:px-4">
         <div className="flex items-center gap-20">
           <Logo />
           <div className="hidden md:flex gap-10">
@@ -34,7 +34,7 @@ function Navbar() {
         </Link>
       </nav>
       {isMenuOpen && (
-        <div className="md:hidden flex flex-col gap-5 px-8 py-4">
+        <div className="md:hidden flex flex-col items-center gap-5 px-8 py-2">
           <ExternalLink label="Home" link="/" />
           <ExternalLink label="About" link="/about" />
           <ExternalLink label="Applications" link="/applications" />
